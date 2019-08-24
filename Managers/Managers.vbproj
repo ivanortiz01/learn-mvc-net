@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Managers</RootNamespace>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Daos\Daos.vbproj" />
+    <ProjectReference Include="..\Models\Models.vbproj" />
+  </ItemGroup>
+
+</Project>
